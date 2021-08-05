@@ -4,8 +4,10 @@
 #include <iostream>
 #include <cstdio>
 
-int GameOver() {
-    std::cout << "Game Over!\n";
-    std::getchar();
+using namespace std;
+
+int GameOverV2() {
+    cout << "Game Over!\n";
+    getchar();
     return 0;
 }
